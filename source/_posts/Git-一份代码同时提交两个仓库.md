@@ -1,5 +1,5 @@
 ---
-title: 一份代码同时提交两个Git仓库
+title: Git-一份代码同时提交两个仓库
 categories:
   - 工具
   - git

@@ -1,5 +1,5 @@
 ---
-title: Jenkins重置用户密码
+title: Jenkins-重置用户密码
 categories:
   - 工具
   - Jenkins
@@ -18,7 +18,7 @@ Jenkins admin 用户忘记密码，需要重置密码
 
 修改 Jenkins 目录的 `config.xml`文件，通常在 `~/.jenkins/config.xml`
 
-`useSecurity`字段修改为 `false`，然后重新启动 Jenkins。你就会发现不需要登陆也能进入管理页面。
+修改 `useSecurity` 字段为 `false`，然后重新启动 Jenkins。你就会发现不需要登陆也能进入管理页面。
 
 重启 Jenkins
 
@@ -26,15 +26,19 @@ Jenkins admin 用户忘记密码，需要重置密码
 
 直接进入 Jenkins 后台 -> 系统管理 -> 全局安全配置
 
-![image-20230525101242908](https://cdn.myshenle.top/images/202305251012933.png)
+此操作可出现 `管理用户` 模块
+
+![全局安全配置](https://cdn.myshenle.top/images/202305251012933.png)
 
 ## 3. 修改密码
 
 直接进入 Jenkins 后台 -> 系统管理 -> 管理用户
 
-![image-20230525102148343](https://cdn.myshenle.top/images/202305251021368.png)
+![重置用户密码](https://cdn.myshenle.top/images/202305251021368.png)
 
-恢复 `config.xml` ，重启 Jenkins，登录验证
+恢复 `Jenkins` 配置（自动设置 `config.xml` ），重启 Jenkins，登录验证
+
+![恢复 Jenkins 配置](https://cdn.myshenle.top/images/202305251045781.png)
 
 # 参考
 
