@@ -1,5 +1,5 @@
 ---
-title: Jenkins-重置用户密码
+title: Jenkins-重置管理员密码
 categories:
   - 工具
   - Jenkins

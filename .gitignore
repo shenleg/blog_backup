@@ -1,18 +1,9 @@
 .DS_Store
-.deploy_git/
-.git/
-.github/
-_config.landscape.yml
-_config.yml
-db.json
+.deploy*/
 node_modules/
-package-lock.json
-package.json
 public/
-scaffolds/
-themes/
-
-Thumbs.db
+db.json
+package.json
 *.log
 
 
