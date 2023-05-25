@@ -13,13 +13,13 @@ date: 2023-05-25 01:42:19
 绑定第一个仓库，能够正常推送拉取
 
 ```bash
-git remote add orgin https://gitee.com/enilu/material-admin.git
+$ git remote add orgin https://gitee.com/enilu/material-admin.git
 ```
 
 绑定第二个仓库，只做推送
 
 ```bash
-git remote set-url --add origin https://github.com/enilu/material-admin.git
+$ git remote set-url --add origin https://github.com/enilu/material-admin.git
 ```
 
 这个时候查看远端仓库信息会有两个 Push 的远程仓库
