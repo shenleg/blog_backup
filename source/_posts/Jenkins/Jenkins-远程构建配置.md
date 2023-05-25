@@ -27,6 +27,16 @@ date: 2023-05-25 10:57:58
 
 `JENKINS_URL` 为 Jenkins 访问地址
 
+# 配置
+
+## 匿名用户权限
+
+不需要登录即可构建，配置匿名用户的调用权限
+
+进入：系统设置 -> 全局安全配置
+
+![匿名用户权限配置](https://cdn.myshenle.top/images/202305251120076.png)
+
 # 参考
 
 * [JENKINS触发远程构建功能使用](https://www.jianshu.com/p/aa0dc1157599)

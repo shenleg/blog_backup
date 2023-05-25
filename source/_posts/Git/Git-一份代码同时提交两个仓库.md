@@ -2,9 +2,9 @@
 title: Git-一份代码同时提交两个仓库
 categories:
   - 工具
-  - git
+  - Git
 tags:
-  - git
+  - Git
 date: 2023-05-25 01:42:19
 ---
 
