@@ -53,6 +53,8 @@ live2d:
 
 重新部署即可
 
+
+
 # 高级看板娘安装步骤
 
 可换装、可拍照、可说话、可互动
@@ -77,7 +79,7 @@ live2d:
 const live2d_path = "https://cdn.jsdelivr.net/gh/Mculover666/live2d-widget/";
 ```
 
-> Mculover666 换成自己的 Github 的用户名
+> Mculover666 换成自己的 Github 用户名
 
 ### 2.2 修改看板娘布局和样式
 
@@ -137,6 +139,8 @@ Github上CDN的使用方式为
 live2d:
   enable: true
 ```
+
+
 
 # 参考
 
