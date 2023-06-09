@@ -17,8 +17,8 @@ date: 2023-05-30 01:36:50
 新建一个文件夹，专门保存下载的软件包
 
 ```bash
-$ mkdir test
-$ cd test
+$ mkdir offline_package
+$ cd offline_package
 ```
 
 下载离线包，packagename 换成要下载包名
@@ -38,41 +38,56 @@ $ sudo chmod 777 -R ./
 如果出现错误：sudo:dpkg-scanpackages: command not found，则需要安装dpkg-dev工具
 
 ```bash
-$ sudo apt-get install dpkg-dev
+$ sudo apt install dpkg-dev
+```
+
+打包文件夹
+
+```bash
+$ tar -czvf ../offline_package.tar.gz ../offline_package
 ```
 
 将打包后的文件拷贝到离线服务器上并解压，比如我们放到 root 目录下
 
 ```bash
-$ tar -zxvf test.tar.gz
-$ cd test/archives
+$ tar -xzvf test.tar.gz
+$ cd offline_package/archives
 $ gzip -d Packages
 ```
 
 修改源
 
 ```bash
-$ mv /etc/apt/sources.list /etc/apt/sources.list.bak
-$ echo "deb [trusted=yes] file:///root/test/ archives/" > /etc/apt/sources.list
+$ sudo mv /etc/apt/sources.list /etc/apt/sources.list.bak
+$ sudo echo "deb [trusted=yes] file:///root/offline_package/ archives/" > /etc/apt/sources.list
 ```
 
 更新源
 
 ```bash
-$ sudo apt-get update
+$ sudo apt update
 ```
 
 安装软件包
 
 ```bash
-$ sudo apt-get install <packagename>
+$ sudo apt install <packagename>
 ```
 
 如果提示依赖问题，可以使用下边的命令修复
 
 ```bash
-$ sudo apt-get install -f
+$ sudo apt install -f
 ```
+
+恢复源
+
+```bash
+$ sudo mv /etc/apt/sources.list.bak /etc/apt/sources.list
+$ sudo apt update
+```
+
+
 
 # 参考
 

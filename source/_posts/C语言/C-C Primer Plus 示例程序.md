@@ -324,11 +324,11 @@ The phrase of praise has 31 letters and occupies 32 memory cells.
 
 int main(void) {
     printf("*%d*\n", PAGES);
-    printf("*%2d*\n", PAGES);
-    printf("*%10d*\n", PAGES);
-    printf("*%010d*\n", PAGES);
-    printf("*%-10d*\n", PAGES);
-    printf("*%+10d*\n", PAGES);
+    printf("*%2d*\n", PAGES);  // 不够会扩大
+    printf("*%10d*\n", PAGES);  // 够会填充空格
+    printf("*%010d*\n", PAGES);  // 0 填充
+    printf("*%-10d*\n", PAGES);  // - 填充
+    printf("*%+10d*\n", PAGES);  // 显示正负号
 
     return 0;
 }
@@ -351,15 +351,19 @@ int main(void) {
 
 ```c
 #include <stdio.h>
-#define PAGES 959
 
 int main(void) {
-    printf("*%d*\n", PAGES);
-    printf("*%2d*\n", PAGES);
-    printf("*%10d*\n", PAGES);
-    printf("*%010d*\n", PAGES);
-    printf("*%-10d*\n", PAGES);
-    printf("*%+10d*\n", PAGES);
+    const double RENT = 3852.99;
+
+    printf("*%f*\n", RENT);  // 默认精度6
+    printf("*%e*\n", RENT);  // 科学计数法，默认精度6
+    printf("*%4.2f*\n", RENT);  // 自定精度
+    printf("*%3.1f*\n", RENT);  // 自定精度，四舍五入
+    printf("*%g*\n", RENT);  // 自动确定显示模式
+    printf("*%10.3f*\n", RENT);  // 自定宽度
+    printf("*%10.3E*\n", RENT);
+    printf("*%+4.2f*\n", RENT);
+    printf("*%010.2f*\n", RENT);
 
     return 0;
 }
@@ -368,11 +372,14 @@ int main(void) {
 输出
 
 ```
-*959*
-*959*
-*       959*
-*0000000959*
-*959       *
-*      +959*
+*3852.990000*
+*3.852990e+03*
+*3852.99*
+*3853.0*
+*3852.99*
+*  3852.990*
+* 3.853E+03*
+*+3852.99*
+*0003852.99*
 ```
 
