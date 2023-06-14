@@ -2,7 +2,7 @@
 title: Ubuntu-换源
 categories:
   - 系统
-  - Linux
+  - Ubuntu
 tags:
   - Ubuntu
 date: 2023-05-30 01:35:41
@@ -17,7 +17,7 @@ date: 2023-05-30 01:35:41
 1. 备份源文件
 
    ```bash
-   $ sudo cp /etc/apt/sources.list /etc/apt/sources_copy.list
+   $ sudo cp /etc/apt/sources.list /etc/apt/sources.list.bk
    ```
 
 2. 修改源

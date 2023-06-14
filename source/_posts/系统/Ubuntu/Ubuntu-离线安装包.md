@@ -2,7 +2,7 @@
 title: Ubuntu-离线安装包
 categories:
   - 系统
-  - Linux
+  - Ubuntu
 tags:
   - Ubuntu
 date: 2023-05-30 01:36:50
