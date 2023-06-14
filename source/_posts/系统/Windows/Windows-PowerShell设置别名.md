@@ -2,6 +2,7 @@
 title: Windows-PowerShell设置别名
 categories:
   - 系统
+  - Windows
 tags:
   - 系统
   - Windows
