@@ -4,8 +4,8 @@ categories:
   - 系统
   - Windows
 tags:
-  - 系统
   - Windows
+  - PowerShell
 date: 2023-06-14 17:13:54
 ---
 
