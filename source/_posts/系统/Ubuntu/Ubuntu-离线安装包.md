@@ -14,6 +14,8 @@ date: 2023-05-30 01:36:50
 
 # 步骤
 
+可能需要先把下载机的ubuntu版本源调成目标机的版本源
+
 新建一个文件夹，专门保存下载的软件包
 
 ```bash
@@ -50,7 +52,7 @@ $ tar -czvf ../offline_package.tar.gz ../offline_package
 将打包后的文件拷贝到离线服务器上并解压，比如我们放到 root 目录下
 
 ```bash
-$ tar -xzvf test.tar.gz
+$ tar -xzvf offline_package.tar.gz
 $ cd offline_package/archives
 $ gzip -d Packages
 ```
@@ -58,7 +60,7 @@ $ gzip -d Packages
 修改源
 
 ```bash
-$ sudo mv /etc/apt/sources.list /etc/apt/sources.list.bak
+$ sudo cp /etc/apt/sources.list /etc/apt/sources.list.bak
 $ sudo echo "deb [trusted=yes] file:///root/offline_package/ archives/" > /etc/apt/sources.list
 ```
 
