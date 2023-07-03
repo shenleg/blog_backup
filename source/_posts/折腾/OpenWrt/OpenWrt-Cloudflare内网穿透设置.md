@@ -1,14 +1,16 @@
 ---
-title: Unraid-安装OpenWrt
+title: OpenWrt-Cloudflare内网穿透设置
 categories:
   - 折腾
-  - Unraid
+  - OpenWrt
 tags:
-  - unraid
+  - openwrt
 date: 2023-06-29 02:24:48
 ---
 
 # 需求
+
+让 cloudflare 穿透服务运行在 OpenWrt 上，从而可通过二级域名进行安全的内网访问
 
 # 步骤
 
@@ -22,18 +24,18 @@ date: 2023-06-29 02:24:48
 
    
 
-1. 登录 cloudflared 账号授权域名
+1. 登录 cloudflared 账号授权域名，生成 ca 证书
 
    ![授权域名](https://cdn.myshenle.top/images/202306290250249.png)
 
-1. 复制ca证书到 cloudflare 配置文件夹
+1. 复制 ca 证书到 cloudflare 配置文件夹
    ![复制证书](https://cdn.myshenle.top/images/202306290253286.png)
 
-1. 创建隧道，复制配置文件
+1. 创建隧道，复制隧道文件
    ![创建隧道](https://cdn.myshenle.top/images/202306290257065.png)
 
 1. 修改配置文件
-   ![修改配置文件](https://cdn.myshenle.top/images/202306290259148.png)
+   ![复制隧道id到配置文件](https://cdn.myshenle.top/images/202306290259148.png)
 
 1. 重启 cloudflare 服务：/etc/init.d/cloudflared restart
 
@@ -41,24 +43,13 @@ date: 2023-06-29 02:24:48
    ![创建隧道成功](https://cdn.myshenle.top/images/202306290301031.png)
 
 1. 配置隧道
-   ![image-20230629030324799](https://cdn.myshenle.top/images/202306290303825.png)
+   ![配置隧道](https://cdn.myshenle.top/images/202306290303825.png)
 
-   ![一直确定下一步](https://cdn.myshenle.top/images/202306290303584.png)
+   ![同步隧道配置](https://cdn.myshenle.top/images/202306290303584.png)
 
 1. 重新进入隧道配置页面，可以开始添加本地服务器映射了
 
    ![本地映射](https://cdn.myshenle.top/images/202306290308476.png)
 
-1. 2
-
-1. 3
-
-1. 4
-
-1. 5
-
-1. 6
-
 # 参考
 
-* [UnRaid虚拟机安装OpenWrt软路由](https://blog.csdn.net/engineerlzk/article/details/128337964)

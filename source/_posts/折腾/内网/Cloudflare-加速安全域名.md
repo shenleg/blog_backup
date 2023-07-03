@@ -1,10 +1,10 @@
 ---
-title: Unraid-安装OpenWrt
+title: Cloudflare-加速安全域名
 categories:
   - 折腾
-  - Unraid
+  - 内网
 tags:
-  - unraid
+  - cloudflare
 date: 2023-06-29 00:35:48
 ---
 

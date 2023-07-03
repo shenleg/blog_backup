@@ -22,14 +22,17 @@ date: 2023-06-28 02:40:48
 
 ![image-20230628014840940](https://cdn.myshenle.top/images/202306280148966.png)
 
-## 2. 启动虚拟机
+## 2. 配置虚拟机
 
 * 稍等几分钟直接登录系统
 * 输入 `vi /etc/config/network` 更改 LAN IP
 
 ![ip config](https://cdn.myshenle.top/images/202306280300604.png)
 
-* 重启虚拟机
+## 3. 重启虚拟机
+
+* `reboot`
+* 输入刚才配置的 LAN IP 登录后台
 
 # 配置
 

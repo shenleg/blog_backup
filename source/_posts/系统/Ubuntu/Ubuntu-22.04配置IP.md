@@ -1,5 +1,5 @@
 ---
-title: Ubuntu-22.04安装
+title: Ubuntu-22.04配置IP
 categories:
   - 系统
   - Ubuntu
