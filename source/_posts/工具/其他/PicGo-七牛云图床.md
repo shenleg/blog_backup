@@ -18,5 +18,7 @@ date: 2023-07-03 20:44:58
 
 * [七牛云 - 价格和优惠](https://portal.qiniu.com/financial/price?product=kodo)
 
+* [为什么我不用七牛云-腾讯云开发者社区](https://cloud.tencent.com/developer/article/2200737)
+
   
 

@@ -61,3 +61,7 @@ b3log/siyuan:v2.9.4 \
 
 # 参考
 
+* [使用docker搭建多端同步思源笔记_NAS存储_什么值得买 (smzdm.com)](https://post.smzdm.com/p/am8m09gz/)
+* [Docker部署思源笔记, 数据自己掌握_NAS存储_什么值得买 (smzdm.com)](https://post.smzdm.com/p/a0qro908/)
+* [【教程】使用docker搭建WebDAV服务_docker webdav_GUSONGEN的博客-CSDN博客](https://blog.csdn.net/u011459717/article/details/128758573)
+* [用思源笔记打造高效写作笔记系统（一） - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/370780955)
