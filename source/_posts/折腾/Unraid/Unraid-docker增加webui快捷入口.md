@@ -14,11 +14,11 @@ br0 模式 docker 拥有独立 ip，需要手动指定 ip 和端口
 
 设置：
 
-![手动指定WebUI](https://cdn.myshenle.top/images/202306262349727.png)
+![手动指定WebUI](http://cdn.myshenle.top/images/202306262349727.png)
 
 效果：
 
-![图标有了快捷入口](https://cdn.myshenle.top/images/202306262351589.png)
+![图标有了快捷入口](http://cdn.myshenle.top/images/202306262351589.png)
 
 # 端口映射模式
 

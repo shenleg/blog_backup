@@ -18,21 +18,22 @@ date: 2023-06-28 03:04:48
 
 网络 - 接口，只保留 lan 口，其他全删掉
 
-![基本设置](https://cdn.myshenle.top/images/202307021211080.png)
+![基本设置](http://cdn.myshenle.top/images/202307021211080.png)
 
-![高级设置](https://cdn.myshenle.top/images/202307021223345.png)
+![DHCP设置](http://cdn.myshenle.top/images/202307021212256.png)
 
-![物理设置](https://cdn.myshenle.top/images/202307021223315.png)
+![高级设置](http://cdn.myshenle.top/images/202307021223345.png)
+
+![物理设置](http://cdn.myshenle.top/images/202307021223315.png)
 
 
 
-![DHCP设置](https://cdn.myshenle.top/images/202307021212256.png)
 
 ## 2. 防火墙设置
 
-![常规设置](https://cdn.myshenle.top/images/202307021218799.png)
+![常规设置](http://cdn.myshenle.top/images/202307021218799.png)
 
-![防火墙规则](https://cdn.myshenle.top/images/202307021225109.png)
+![防火墙规则](http://cdn.myshenle.top/images/202307021225109.png)
 
 ```
 iptables -t nat -A PREROUTING -p udp --dport 53 -j REDIRECT --to-ports 53

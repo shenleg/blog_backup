@@ -17,33 +17,33 @@ date: 2023-07-02 17:11:48
 
 ## 1. 安装 ZeroTier 插件
 
-![iStore安装](https://cdn.myshenle.top/images/202307021840983.png)
+![iStore安装](http://cdn.myshenle.top/images/202307021840983.png)
 
 ## 2. 加入网络
 
-![加入网络](https://cdn.myshenle.top/images/202307021841426.png)
+![加入网络](http://cdn.myshenle.top/images/202307021841426.png)
 
 ## 3. 授权配置
 
-![授权](https://cdn.myshenle.top/images/202307021843454.png)
+![授权](http://cdn.myshenle.top/images/202307021843454.png)
 
-![路由设置](https://cdn.myshenle.top/images/202307021845144.png)
+![路由表设置](http://cdn.myshenle.top/images/202307021845144.png)
 
 ## 4. OpenWrt 配置
 
-![查看网卡](https://cdn.myshenle.top/images/202307021846091.png)
+![查看网卡](http://cdn.myshenle.top/images/202307021846091.png)
 
-![创建接口](https://cdn.myshenle.top/images/202307021847278.png)
+![创建接口](http://cdn.myshenle.top/images/202307021847278.png)
 
-![防火墙配置](https://cdn.myshenle.top/images/202307021849486.png)
+![防火墙配置](http://cdn.myshenle.top/images/202307021849486.png)
 
-![配置端口放行1](https://cdn.myshenle.top/images/202307021850704.png)
+![配置端口放行1](http://cdn.myshenle.top/images/202307021850704.png)
 
-![配置端口放行2](https://cdn.myshenle.top/images/202307021852299.png)
+![配置端口放行2](http://cdn.myshenle.top/images/202307021852299.png)
 
 ## 5. 验证
 
-![控制台查看](https://cdn.myshenle.top/images/202307021855214.png)
+![控制台查看](http://cdn.myshenle.top/images/202307021855214.png)
 
 # 参考
 

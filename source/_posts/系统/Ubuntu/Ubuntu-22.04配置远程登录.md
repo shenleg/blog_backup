@@ -16,7 +16,7 @@ date: 2023-06-26 02:31:58
 $ vi /etc/ssh/sshd_config
 ```
 
-![image-20230626023446041](https://cdn.myshenle.top/images/202306260234098.png)
+![image-20230626023446041](http://cdn.myshenle.top/images/202306260234098.png)
 
 ## 2. 重启服务
 

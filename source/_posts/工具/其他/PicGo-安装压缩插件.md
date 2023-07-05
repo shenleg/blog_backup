@@ -24,23 +24,23 @@ date: 2023-07-03 20:44:58
 
 ## 2. 安装 compress 插件
 
-![compress插件](https://cdn.myshenle.top/images/202307032053908.png)
+![compress插件](http://cdn.myshenle.top/images/202307032053908.png)
 
 ## 3. 获取 tinypng API
 
 * [TinyPNG – Compress WebP, PNG and JPEG images intelligently](https://tinypng.com/)
 
-![获取API](https://cdn.myshenle.top/images/202307032107793.png)
+![获取API](http://cdn.myshenle.top/images/202307032107793.png)
 
 ## 4. 配置 compress
 
-![配置compress](https://cdn.myshenle.top/images/202307032112229.png)
+![配置compress](http://cdn.myshenle.top/images/202307032112229.png)
 
-![填入API](https://cdn.myshenle.top/images/202307032113641.png)
+![填入API](http://cdn.myshenle.top/images/202307032113641.png)
 
 ## 5. 启用 compress
 
-![启用compress](https://cdn.myshenle.top/images/202307032114509.png)
+![启用compress](http://cdn.myshenle.top/images/202307032114509.png)
 
 ## 6. 重启 PicGo
 

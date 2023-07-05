@@ -18,26 +18,33 @@ date: 2023-06-28 02:40:48
 
 ## 1. 添加虚拟机
 
-![image-20230628014641544](https://cdn.myshenle.top/images/202306280146578.png)
+![虚拟机设置1](http://cdn.myshenle.top/images/202306280146578.png)
 
-![image-20230628014840940](https://cdn.myshenle.top/images/202306280148966.png)
+![虚拟机设置2](http://cdn.myshenle.top/images/202306280148966.png)
+
+
 
 ## 2. 配置虚拟机
 
 * 稍等几分钟直接登录系统
 * 输入 `vi /etc/config/network` 更改 LAN IP
 
-![ip config](https://cdn.myshenle.top/images/202306280300604.png)
+![ip config](http://cdn.myshenle.top/images/202306280300604.png)
+
+
 
 ## 3. 重启虚拟机
 
 * `reboot`
 * 输入刚才配置的 LAN IP 登录后台
 
+
+
 # 配置
 
 1. 浏览器输入刚才设置的 ip
-2. 输入默认密码登录配置
+2. 输入默认密码登录
+3. 根据需要调整为主路由、旁路由模式
 
 
 

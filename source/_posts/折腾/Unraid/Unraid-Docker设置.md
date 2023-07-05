@@ -14,7 +14,7 @@ date: 2023-07-03 21:41:48
 
 # 步骤
 
-![docker设置](https://cdn.myshenle.top/images/202307032228075.png)
+![docker设置](http://cdn.myshenle.top/images/202307032228075.png)
 
 说明：
 

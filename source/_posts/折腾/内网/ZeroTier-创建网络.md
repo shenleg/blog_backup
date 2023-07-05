@@ -18,23 +18,23 @@ date: 2023-07-02 17:11:48
 
 登录官网注册账号：[ZeroTier | Global Area Networking](https://www.zerotier.com/)
 
-![创建网络](https://cdn.myshenle.top/images/202307021715223.png)
+![创建网络](http://cdn.myshenle.top/images/202307021715223.png)
 
-![网络配置](https://cdn.myshenle.top/images/202307021720896.png)
+![网络配置](http://cdn.myshenle.top/images/202307021720896.png)
 
 ## 2. 配置网段
 
-![路由网段配置](https://cdn.myshenle.top/images/202307021718542.png)
+![路由网段配置](http://cdn.myshenle.top/images/202307021718542.png)
 
 ## 3. 授权设备
 
-![授权设备](https://cdn.myshenle.top/images/202307021722074.png)
+![授权设备](http://cdn.myshenle.top/images/202307021722074.png)
 
 ## 4. 测试
 
 手机安装 ZeroTier 客户端，加入网络
 
-![手机设置](https://cdn.myshenle.top/images/202307021727050.png)
+![手机设置](http://cdn.myshenle.top/images/202307021727050.png)
 
 此时便可以访问加入此网络的其他设备，输入分配的 IP 即可
 
